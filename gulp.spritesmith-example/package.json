@@ -1,5 +1,5 @@
 {
-  "name": "gulp-collection",
+  "name": "gulp.spritesmith-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,6 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-sass": "^3.0.0"
+    "gulp.spritesmith": "^6.2.1"
   }
 }
