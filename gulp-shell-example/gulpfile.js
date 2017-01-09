@@ -3,3 +3,5 @@ var gulp = require('gulp'),
 
 gulp.task('git', shell.task(['git add -A', 'git commit -m "update"', 'git push']));
 
+gulp.task('default', ['git']);
+
