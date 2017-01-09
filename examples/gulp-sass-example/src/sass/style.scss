@@ -1,0 +1,13 @@
+$white: #fff;
+
+.header {
+    width: 100%;
+    height: 30px;
+    min-width: 1180px;
+    background-color: $white;
+
+    .nav {
+        width: 500px;
+        height: 30px;
+    }
+}

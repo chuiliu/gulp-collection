@@ -1,0 +1,10 @@
+.box {
+    width: 100px;
+    height: 100px;
+    -webkit-transform: scale(.5);
+        -ms-transform: scale(.5);
+            transform: scale(.5);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+            box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    background-color: #e05757;
+}

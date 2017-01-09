@@ -1,0 +1,21 @@
+/* 浮动 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 清除浮动 */
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    content: '';
+    height: 0;
+    overflow: hidden;
+    clear: both;
+    visibility: hidden;
+}
