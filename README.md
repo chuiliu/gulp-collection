@@ -13,6 +13,7 @@
 - gulp-imagemin: 图片压缩，[demo](https://coding.net/u/chuiliu/p/gulp-collection/git/blob/master/examples/gulp-imagemin-example/gulpfile.js)
 - gulp-htmlmin: HTML压缩，[demo](https://coding.net/u/chuiliu/p/gulp-collection/git/blob/master/examples/gulp-htmlmin-example/gulpfile.js)
 - gulp-uglify: Javascript压缩，[demo](https://coding.net/u/chuiliu/p/gulp-collection/git/blob/master/examples/gulp-uglify-example/gulpfile.js)
+- gulp-rename: 文件重命名，[demo](https://coding.net/u/chuiliu/p/gulp-collection/git/blob/master/examples/gulp-rename-example/gulpfile.js)
 - del: 删除文件，[demo](https://coding.net/u/chuiliu/p/gulp-collection/git/blob/master/examples/del-example/gulpfile.js)
 
 

@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 
 gulp.task('uglify',function(){
-    gulp.src('src/*.js')
+    return gulp.src('src/*.js')
         .pipe(uglify({
             // mangle: true,         // 修改变量名，默认true
             mangle: {
@@ -10,6 +10,8 @@ gulp.task('uglify',function(){
             },
             compress: true,          // 完全压缩，默认true
             preserveComments: 'all'  // 保留注释
-    }))
-    .pipe(gulp.dest('dist'));
+        }))
+        .pipe(gulp.dest('dist'));
 });
+
+gulp.task('default', ['uglify']);
