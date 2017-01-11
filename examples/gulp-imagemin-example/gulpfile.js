@@ -1,16 +1,21 @@
 var gulp = require('gulp'),
-    imagemin = require('gulp-imagemin');
+    cache = require('gulp-cache'),
+    imagemin = require('gulp-imagemin'),
+    pngquant  = require("imagemin-pngquant");  // png压缩插件
 
 gulp.task('imagemin', function() {
-    gulp.src('images/*.*')
-        .pipe(imagemin({
-            progressive: true
-        }))
-        .pipe(gulp.dest('dist/images'));
+    return gulp.src('src/*.{png,jpg,gif}')
+        .pipe(cache(imagemin({
+            optimizationLevel: 3,
+            progressive: true,
+            interlaced: true,
+            use: [pngquant()]  // 使用插件，可选
+        })))
+        .pipe(gulp.dest('dist'));
 });
 
-gulp.task('auto', function() {
-    gulp.watch('images/*.*', ['imagemin']);
+gulp.task('watch', function() {
+    gulp.watch('src/*.{png,jpg,gif}', ['imagemin']);
 });
 
-gulp.task('default', ['imagemin', 'auto']);
+gulp.task('default', ['imagemin', 'watch']);

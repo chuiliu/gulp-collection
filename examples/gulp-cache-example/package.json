@@ -1,5 +1,5 @@
 {
-  "name": "gulp-imagemin-example",
+  "name": "gulp-cache-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,6 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-cache": "^0.4.5",
-    "gulp-imagemin": "^3.1.1",
-    "imagemin-pngquant": "^5.0.0"
+    "gulp-imagemin": "^3.1.1"
   }
 }

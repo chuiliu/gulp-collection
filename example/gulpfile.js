@@ -70,17 +70,17 @@ gulp.task('images', function() {
 });
 
 
-// 雪碧图
-gulp.task('spritesmith', function(){
-    gulp.src('src/*.png')
-        .pipe(spritesmith({
-            imgName: 'sprite.png',     // 生成的图片
-            cssName: 'sprite.css',     // 生成的css
-            padding: 10,               // 图标间的距离
-            algorithm: 'binary-tree'   // 图标排序方式
-        }))
-        .pipe(gulp.dest('dist/assets/images'));
-});
+// // 雪碧图
+// gulp.task('spritesmith', function(){
+//     gulp.src('src/*.png')
+//         .pipe(spritesmith({
+//             imgName: 'sprite.png',     // 生成的图片
+//             cssName: 'sprite.css',     // 生成的css
+//             padding: 10,               // 图标间的距离
+//             algorithm: 'binary-tree'   // 图标排序方式
+//         }))
+//         .pipe(gulp.dest('dist/assets/images'));
+// });
 
 
 gulp.task('clean', function(cb) {

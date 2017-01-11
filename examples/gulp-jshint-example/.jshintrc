@@ -1,0 +1,45 @@
+{
+    "node": true,
+    "browser": true,
+    "esnext": true,
+    "bitwise": true,
+    /**
+     * 变量驼峰命名
+     */
+    "camelcase": true,
+    /**
+     * if语句和while语句等必须用花括号
+     */
+    "curly": true,
+    /**
+     * 必须使用 === 和 !==
+     */
+    "eqeqeq": true,
+    /**
+     * 4个空格缩进
+     */
+    "indent": 4,
+    "latedef": true,
+    /**
+     * 构造函数大写
+     */
+    "newcap": true,
+    /**
+     * 不允许使用 arguments.callee 和 arguments.caller
+     */
+    "noarg": true,
+    /**
+     * 单引号
+     */
+    "quotmark": "single",
+    /**
+     * 不允许未定义的变量
+     */
+    "undef": true,
+    /**
+     * 未使用的变量
+     */
+    "unused": true,
+    "strict": true,
+    "white": true
+}
