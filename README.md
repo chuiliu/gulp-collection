@@ -3,9 +3,9 @@
 整理和收集我使用过的gulp插件的基本使用以及一些实用性的处理，不多，慢慢充实。
 
 ## 常用
-### css任务（编译sass，自动添加前缀，压缩并重命名）
-### javascript任务（代码检错，拼接，压缩并重命名）
-### 图片任务（压缩）
+- css任务（编译sass，自动添加前缀，压缩并重命名）
+- javascript任务（代码检错，拼接，压缩并重命名）
+- 图片任务（压缩）
 
 [demo](https://coding.net/u/chuiliu/p/gulp-collection/git/blob/master/example/gulpfile.js)
 
