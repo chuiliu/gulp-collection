@@ -1,0 +1,1 @@
+function group(r,u){if(u<=1||r.length<=u)return r;var n=[],o=[];return r.forEach(function(r){n.push(r),n.length===u&&(o.push(n),n=[])}),n.length&&o.push(n),o}var arr=[1,2,3,4,5,6,7,8,9],groupArr=group(arr,3);console.log(groupArr);
